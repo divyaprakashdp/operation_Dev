@@ -1,0 +1,96 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    color: #ef1111;
+}
+
+a:hover{
+    color: #477be4;
+    text-decoration: underline;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px #4c31ad solid;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box-2{
+    border: 3px red dotted;
+    padding:20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px rgb(174, 89, 163) dotted;
+    padding:20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding:0;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+}
+
+.my-form{
+    padding: 20px;
+    margin: 20px 0;
+    border: #ef1111;
+    background-color: #a1bcf4;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+}
