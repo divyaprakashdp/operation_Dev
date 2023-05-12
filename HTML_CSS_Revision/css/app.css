@@ -72,7 +72,12 @@ a:hover{
     padding: 20px;
     margin: 20px 0;
     border: #ef1111;
-    background-color: #a1bcf4;
+    /* background-color: #a1bcf4; */
+    background-image: url(https://picsum.photos/seed/picsum/2100/2100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000c10;
 }
 
 .my-form .form-group{
@@ -86,11 +91,77 @@ a:hover{
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+    opacity: .6;
 }
 
-.my-form input[type="submit"]{
+.button{
     background-color: #333;
     color:#fff;
     padding: 10px 15px;
     border: none;
+}
+
+.button:hover{
+    background-color: rgb(3, 161, 3);
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    border: 1px solid #371717;
+    background-color: #000;
+    color: #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.linkedin{
+    position: fixed;
+    top: 400px;
+    left: 0;
+    height: 30px;
+    width: 20px;
+    background-color: none;
+    background-image: url("linkedinIcon.svg");
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: #371717;
+    color: #4c31ad;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 15px;
 }
