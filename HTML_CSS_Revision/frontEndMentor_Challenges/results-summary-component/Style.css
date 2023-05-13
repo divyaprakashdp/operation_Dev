@@ -1,0 +1,115 @@
+body{
+    width: 60%;
+    margin: 10% 20%;
+    font-size: 18px;
+    
+}
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+}
+.left-panel{
+    float: left;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background: hsl(234, 85%, 45%);
+    background: linear-gradient(0deg, hsl(234, 85%, 45%, 1) 40%, hsl(252, 100%, 67%, 1) 100%);
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-panel{
+    float: right;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: -15px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result{
+    border-radius: 75px;
+    border: 1px solid blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    line-height: 1px;
+    background: linear-gradient(180deg, hsl(234, 85%, 45%, 1) 40%, hsl(252, 100%, 67%, 1) 100%);
+}
+
+#marks{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+#grade{
+    color: white;
+    font-weight: bold;
+}
+
+.result-text{
+    color: rgb(212, 206, 206);
+    font-size: 12px;
+}
+
+.summary{
+    align-items: center;
+    text-align: left;
+}
+
+.summary div, button{
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    border:none;
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+#reaction{
+    background-color: hsl(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+#memory{
+    background-color: hsl(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal{
+    background-color: hsl(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+
+#visual{
+    background-color:hsl(234, 85%, 45%, 0.1);
+    color:hsl(234, 85%, 45%);
+}
+
+#total_summary{
+    color: grey;
+}
+
+button{
+    background: hsl(234, 85%, 45%);
+    background: linear-gradient(0deg, hsl(234, 85%, 45%, 1) 40%, hsl(252, 100%, 67%, 1) 100%);
+    color: white;
+    border-radius: 15px;
+    width: 90%;
+    height: 30px;
+    border: none;
+}
+
