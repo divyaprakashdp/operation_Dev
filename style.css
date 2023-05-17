@@ -1,5 +1,37 @@
-li{
-    list-style: none;
-    border: 1px solid red;
-    padding: 10px;
+body{
+    align-items: left;
+    margin: 5% ;
+    padding-left:0px;
+    width: 100%;
+    background-image: url("https://unsplash.com/photos/QMDap1TAu0g");
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+
+.link-blocks{
+    margin: 5px;
+    padding: 5px;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+
+img{
+    max-width: 100%;
+    width: 40vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+a{
+    padding-top: 0;
 }
