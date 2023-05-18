@@ -1,13 +1,13 @@
 body{
-    width: 60%;
-    margin: 10% 20%;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    display: grid;
     min-height: 100vh;
+    overflow: hidden;
+    place-items: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 50%;
 }
 .left-panel{
@@ -68,28 +68,42 @@ body{
 
 
 
-.summary ul{
+.summary ul, li{
     height: 30px;
     border:none;
     border-radius: 10px;
     padding: 2px;
     position: relative;
     display: flex;
-    flex-direction: row;
     list-style: none;
     font-size: 15px;
-    align-items: center;
+  align-items: center;
+}
+
+.summary div{
+    display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+/* .marks_part{
+    
+} */
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .list_text{
-    padding-left: 10px;
-    padding-right: 70px;
+  justify-content: left;
+  width: 40vw;
 }
 
 #reaction{
     background-color: hsl(0, 100%, 67%, 0.1);
     color: hsl(0, 100%, 67%);
-    text-align: left;
+    text-align: right;
     padding: none;
 }
 
@@ -116,16 +130,22 @@ body{
     text-align: end;
     font-size: 10px;
     justify-content: right;
+    align-items: flex-end right;
 }
 
 #indv_marks{
     text-align: end;
     font-size: 10px;
     color: #000;
+    font-weight: 900;
     justify-content: right;
+    padding-left: 20px;
+    align-items: flex-end right;
 }
 
-
+/* .marks_ratio{
+    
+} */
 
 button{
     background: hsl(234, 85%, 45%);
@@ -136,4 +156,5 @@ button{
     height: 30px;
     border: none;
 }
+
 
