@@ -7,12 +7,12 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.container{
+/* .container{
     height: 50%;
-}
+} */
 .left-panel{
     float: left;
-    width: 50%;
+    width: 300px;
     height: 50vh;
     box-sizing: border-box;
     padding: 15px;
@@ -26,7 +26,7 @@ body{
 
 .right-panel{
     float: right;
-    width: 50%;
+    width: 300px;
     height: 50vh;
     padding: 15px;
     box-sizing: border-box;
