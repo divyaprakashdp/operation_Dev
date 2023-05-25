@@ -18,4 +18,3 @@ console.log(quote.includes('life'));
 
 let name = "akbar";
 firstChar = name[0].toUpperCase();
-console.log(firstChar+name.substring(1));
