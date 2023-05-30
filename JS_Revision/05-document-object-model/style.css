@@ -1,0 +1,44 @@
+body{
+    align-items: left;
+    width: 70%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    width: 15%;
+    margin: 5% 5%;
+    border-radius: 10px;
+}
+
+.btn-link{
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.form-input-filter{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+    border: 1px solid;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
