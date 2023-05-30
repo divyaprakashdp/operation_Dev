@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="note-taking.png" alt="" />
+      <h1 class="form-title" id="app-title">Shopping List</h1>
+    </header>
+    <form action="">
+      <div class="" form-control>
+        <input
+          type="text"
+          class="form-input"
+          id="item-input"
+          name="item"
+          placeholder="Enter Item"
+        />
+      </div>
+      <div class="form-control">
+        <button type="submit" class="btn">+Add Item</button>
+      </div>
+    </form>
+
+    <div class="filter">
+        <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items">
+    </div>
+
+    <ul id="item-list" class="items">
+        <li class="item">Apples
+            <button class="remove-item btn-link text-red">
+                
+            </button>
+        </li>
+
+        <li class="item">Oranges
+            <button class="remove-item btn-link text-red">
+                
+            </button>
+        </li>
+    </ul>
+
+    <div>
+        <h3>Traversing through dom</h3>
+    </div>
+    <div class="parent">
+        <div class="child">Child1</div>
+        <div class="child">Child2</div>
+        <div class="child">Child3</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
