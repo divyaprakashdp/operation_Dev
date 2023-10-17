@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0D1A2D;
+}
+
+section{
+    height: 300px;
+    width: 200px;
+    background: #15273F;
+    border-radius: 5px;
+    margin: 200px auto;
+}
+
+section img{
+    height: 60%;
+    width: 90%;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 5px;
+}
