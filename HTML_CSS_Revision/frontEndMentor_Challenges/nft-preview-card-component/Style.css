@@ -22,3 +22,37 @@ section img{
     justify-content: center;
     border-radius: 5px;
 }
+
+/* info */
+.nft-name{
+    color: white;
+}
+
+.description{
+    font-size: 12px;
+    color: #7086A4;
+}
+
+.other-info{
+    font-size: 15px;
+    /* border-bottom: 1px solid red; */
+}
+
+.ethereum-icon{
+    height: 5%;
+    width: 10%;
+    margin: 0;
+    margin-right: 2px;
+    padding: 0;
+}
+
+.pricetag{
+    float: left;
+    margin: 5px;
+    color: #06BFC1;
+}
+
+.time-left{
+    float: right;
+    margin: 5px;
+}
