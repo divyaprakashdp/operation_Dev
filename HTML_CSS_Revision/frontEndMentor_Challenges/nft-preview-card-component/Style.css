@@ -5,20 +5,21 @@
 
 body{
     background: #0D1A2D;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 section{
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 300px;
     background: #15273F;
     border-radius: 5px;
     margin: 200px auto;
+    padding: 20px;
 }
 
 section img{
     height: 60%;
-    width: 90%;
-    margin: 10px;
+    width: 100%;
     justify-content: center;
     border-radius: 5px;
 }
@@ -26,23 +27,21 @@ section img{
 /* info */
 .nft-name{
     color: white;
+    margin-top: 20px;
 }
 
 .description{
-    font-size: 12px;
+    font-size: 20px;
     color: #7086A4;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.other-info{
-    font-size: 15px;
-    /* border-bottom: 1px solid red; */
-}
-
-.ethereum-icon{
-    height: 5%;
-    width: 10%;
+.ethereum-icon, .clock-icon{
+    height: 15px;
+    width: 10px;
     margin: 0;
-    margin-right: 2px;
+    margin-right: 5px;
     padding: 0;
 }
 
@@ -50,9 +49,36 @@ section img{
     float: left;
     margin: 5px;
     color: #06BFC1;
+    align-items: top;
 }
 
 .time-left{
     float: right;
     margin: 5px;
+    color: #8BACD9;
+}
+
+.created {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #7086A4;
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.creator{
+    color: white;
+}
+
+hr{
+    background-color: #2E4058;
 }
