@@ -5,7 +5,8 @@
 
 body{
     background: #0D1A2D;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 section{
@@ -17,11 +18,32 @@ section{
     padding: 20px;
 }
 
-section img{
+#cube-image{
+    display: inline-block;
+    position: relative;
+}
+
+#cube-image img{
     height: 60%;
     width: 100%;
-    justify-content: center;
     border-radius: 5px;
+}
+
+.view-icon{
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.view-icon:hover{
+    
+    opacity: 0.7;
+    background-color: #22aab7;
+    cursor: pointer;
 }
 
 /* info */
