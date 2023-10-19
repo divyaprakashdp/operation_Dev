@@ -10,18 +10,53 @@ body{
 
 .productType{
     font-family: 'Quicksand', sans-serif;
+    padding: 22px 0px 10px 22px;
+    letter-spacing: 5px;
+    color: gray;
 }
 
 .productName{
     font-family: 'IBM Plex Serif', serif;
+    font-size: 42px;
+    padding: 0px 0px 28px 22px;
+    line-height: 1;
 }
 
-.productDesc, .addToCart{
+.productDesc{
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    padding-left: 22px;
+    color: grey;
+}
+
+.discountedPrice{
+    color: #3D8168;
+    font-size: 24px;
+}
+
+.originalPrice{
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: line-through;
+    margin-left: 12px;
+}
+
+.addToCart{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 80%;
+    margin-left: 22px;
+    margin-right: -22px;
+    padding: 15px;
+    border: none;
+    background-color: #3D8168;
+    color: white;
+    border-radius: 7px;
 }
 
 .productPrice{
     font-family: 'Fraunces', serif;
+    padding: 22px;
 }
 
 #container{
@@ -36,6 +71,8 @@ img{
     height: 500px;
     width: 50%;
     float: left;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
 
@@ -45,4 +82,18 @@ img{
     background-color: white;
     height: 500px;
     width: 50%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.cartIcon{
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.addToCart:hover{
+    background-color:#194131;
+    cursor: pointer;
 }
