@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #F3EAE3;
+}
+
+.productType{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.productName{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.productDesc, .addToCart{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.productPrice{
+    font-family: 'Fraunces', serif;
+}
+
+#container{
+    height: 500px;
+    width: 600px;
+    margin: 150px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+img{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+
+
+.productInfo{
+    float: right;
+    background-color: white;
+    height: 500px;
+    width: 50%;
+}
