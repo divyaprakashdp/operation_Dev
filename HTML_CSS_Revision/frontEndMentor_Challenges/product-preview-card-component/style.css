@@ -20,6 +20,7 @@ body{
     font-size: 42px;
     padding: 0px 0px 28px 22px;
     line-height: 1;
+    text-decoration: solid;
 }
 
 .productDesc{
@@ -44,14 +45,19 @@ body{
 
 .addToCart{
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
     width: 80%;
     margin-left: 22px;
-    margin-right: -22px;
     padding: 15px;
     border: none;
     background-color: #3D8168;
     color: white;
     border-radius: 7px;
+}
+
+.addToCart > p{
+    margin-left: 7px;
 }
 
 .productPrice{
