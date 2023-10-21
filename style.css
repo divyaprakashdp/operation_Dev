@@ -3,7 +3,8 @@ body{
     margin: 5% ;
     padding-left:0px;
     width: 100%;
-    background-image: url("https://unsplash.com/photos/QMDap1TAu0g");
+    background: grey;
+    overflow-x: hidden;
 }
 
 h3{

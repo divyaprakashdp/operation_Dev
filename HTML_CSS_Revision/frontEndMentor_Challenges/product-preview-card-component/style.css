@@ -20,6 +20,7 @@ body{
     font-size: 42px;
     padding: 0px 0px 28px 22px;
     line-height: 1;
+    text-decoration: solid;
 }
 
 .productDesc{
@@ -44,14 +45,19 @@ body{
 
 .addToCart{
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
     width: 80%;
     margin-left: 22px;
-    margin-right: -22px;
     padding: 15px;
     border: none;
     background-color: #3D8168;
     color: white;
     border-radius: 7px;
+}
+
+.addToCart > p{
+    margin-left: 7px;
 }
 
 .productPrice{
@@ -96,4 +102,38 @@ img{
 .addToCart:hover{
     background-color:#194131;
     cursor: pointer;
+}
+
+@media(max-width: 500px){
+    #container{
+        height: 422px;
+        width: 95%;
+        margin: 30px 0px 30px 18px;
+        display:block;
+    position:relative;
+    }
+    img, .productInfo{
+        float: none;
+    }
+
+    img{
+        height:300px;
+        width: 95%;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 7px;
+    }
+
+    .productImg{
+        height:299px;
+    }
+
+    .productInfo{
+        height: 450px;
+        width: 95%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+    
 }
