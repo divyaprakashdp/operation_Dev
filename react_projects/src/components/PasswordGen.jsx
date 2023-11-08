@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import "./PasswordGen.css";
+import "../Style/PasswordGen.css";
 import {
   IconButton,
   TextField,
@@ -12,7 +12,7 @@ import KeyOutlinedIcon from "@mui/icons-material/KeyOutlined";
 import ContentCopyOutlinedIcon from "@mui/icons-material/ContentCopyOutlined";
 import { useCallback } from "react";
 import { useEffect } from "react";
-import { useRef } from "react";
+// import { useRef } from "react";
 
 export default function PasswordGen() {
   const [password, setPassword] = useState("");
@@ -20,7 +20,7 @@ export default function PasswordGen() {
   const [isNumAllowed, setNumAllowed] = useState(false);
   const [isSpecialCharAllowed, setSpecialCharAllowed] = useState(false);
 
-  const passwordRef = useRef(null);
+  //   const passwordRef = useRef(null);
 
   const copyToClipboard = useCallback(() => {
     // passwordRef.current?.select();
