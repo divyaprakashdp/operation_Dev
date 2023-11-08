@@ -9,14 +9,23 @@ import {
   Typography,
 } from "@mui/material";
 import KeyOutlinedIcon from "@mui/icons-material/KeyOutlined";
+import ContentCopyOutlinedIcon from "@mui/icons-material/ContentCopyOutlined";
 import { useCallback } from "react";
 import { useEffect } from "react";
+import { useRef } from "react";
 
 export default function PasswordGen() {
   const [password, setPassword] = useState("");
   const [length, setLength] = useState(10);
   const [isNumAllowed, setNumAllowed] = useState(false);
   const [isSpecialCharAllowed, setSpecialCharAllowed] = useState(false);
+
+  const passwordRef = useRef(null);
+
+  const copyToClipboard = useCallback(() => {
+    // passwordRef.current?.select();
+    window.navigator.clipboard.writeText(password);
+  }, [password]);
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
@@ -44,7 +53,7 @@ export default function PasswordGen() {
       </header>
       <div>
         <TextField
-          sx={{ width: "90%", background: "white" }}
+          sx={{ width: "80%", background: "white" }}
           id="out"
           labellined-basic="Outlined"
           variant="outlined"
@@ -52,6 +61,10 @@ export default function PasswordGen() {
         />
         <IconButton aria-label="generate" onClick={passwordGenerator}>
           <KeyOutlinedIcon fontSize="large" />
+        </IconButton>
+
+        <IconButton aria-label="generate" onClick={copyToClipboard}>
+          <ContentCopyOutlinedIcon fontSize="large" />
         </IconButton>
 
         <div id="features-control">
