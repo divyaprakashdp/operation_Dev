@@ -12,11 +12,11 @@ body {
 }
 
 .container{
-  height: 240px;
+  height: auto;
   width: 35%;
   background: #334255;
   border-radius: 5px;
-  margin: 120px auto;
+  margin: 20px auto;
   padding: 20px;
 }
 
