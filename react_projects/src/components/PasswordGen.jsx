@@ -7,6 +7,7 @@ import {
   Slider,
   Checkbox,
   Typography,
+  Tooltip,
 } from "@mui/material";
 import KeyOutlinedIcon from "@mui/icons-material/KeyOutlined";
 import ContentCopyOutlinedIcon from "@mui/icons-material/ContentCopyOutlined";
@@ -59,13 +60,17 @@ export default function PasswordGen() {
           variant="outlined"
           value={password}
         />
-        <IconButton aria-label="generate" onClick={passwordGenerator}>
-          <KeyOutlinedIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="generate">
+          <IconButton aria-label="generate" onClick={passwordGenerator}>
+            <KeyOutlinedIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
-        <IconButton aria-label="generate" onClick={copyToClipboard}>
-          <ContentCopyOutlinedIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="copy">
+          <IconButton aria-label="generate" onClick={copyToClipboard}>
+            <ContentCopyOutlinedIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
         <div id="features-control">
           <Slider
