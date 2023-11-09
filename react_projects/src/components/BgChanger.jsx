@@ -1,4 +1,5 @@
-import { Typography, Button } from "@mui/material";
+import { Typography, Button, IconButton, Tooltip } from "@mui/material";
+import RestartAltOutlinedIcon from "@mui/icons-material/RestartAltOutlined";
 import { useState } from "react";
 
 export default function BgChanger() {
@@ -41,6 +42,11 @@ export default function BgChanger() {
         >
           Pink
         </Button>
+        <Tooltip title="reset">
+          <IconButton aria-label="generate" onClick={() => setColor("#334255")}>
+            <RestartAltOutlinedIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
       </div>
     </main>
   );
